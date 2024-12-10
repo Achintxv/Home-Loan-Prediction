@@ -3,7 +3,7 @@ A personalized content aggregation dashboard using machine learning to filter an
 Content Personalization Dashboard
 <br>
 <br>
-Purpose:<br>
+<h2>Purpose:</h2>
 The Content Personalization Dashboard helps users manage information overload by aggregating content from multiple platforms into a single interface. It uses machine learning to filter and recommend content tailored to individual preferences, ultimately saving time and improving focus.<br>
 <br>
 <h2>Table of Contents</h2>
@@ -21,7 +21,7 @@ The Content Personalization Dashboard helps users manage information overload by
 <h2>Overview</h2>
 This project aims to build a dashboard that aggregates content from social media platforms like YouTube, Instagram, and Twitter, using machine learning to personalize recommendations and reduce distractions. Users can view personalized content recommendations, analyze their consumption patterns, and adjust preferences for improved content focus and relevance.<br>
 
-Key Features
+<h2>Key Features</h2>
 <ol>
 <li>Content Aggregation</li>
   <ul>
@@ -54,48 +54,61 @@ Key Features
 <li>Helps users optimize their content consumption and focus on high-value material.</li>
 </ul>
 </ol>
-
-Tech Stack
+<br>
+<h2>Tech Stack</h2>
 Front-End:
-React.js: A JavaScript library for building interactive user interfaces.
-Material-UI / TailwindCSS: Styling frameworks for responsive and modern design components.
+<ul>
+  <li>React.js: A JavaScript library for building interactive user interfaces.</li>
+  <li>Material-UI / TailwindCSS: Styling frameworks for responsive and modern design components.</li>
+</ul>
 Back-End:
-Node.js: JavaScript runtime for handling server-side operations.
-Express.js: A web framework for building RESTful APIs.
+<ul>
+  <li>Node.js: JavaScript runtime for handling server-side operations.</li>
+  <li>Express.js: A web framework for building RESTful APIs.</li>
+</ul>
 Database:
-MongoDB: NoSQL database for storing user preferences, aggregated content, and historical activity logs.
+<ul>
+<li>MongoDB: NoSQL database for storing user preferences, aggregated content, and historical activity logs.</li>
+</ul>
 Machine Learning:
-Python: Primary language for implementing ML algorithms and data processing.
-Libraries: Scikit-learn, TensorFlow (for models), NLTK, spaCy (for text analysis).
-Flask / FastAPI: For serving machine learning models via APIs.
+<ul>
+<li>Python: Primary language for implementing ML algorithms and data processing.</li>
+  <ul><li>Libraries: Scikit-learn, TensorFlow (for models), NLTK, spaCy (for text analysis).</li></ul>
+<li>Flask / FastAPI: For serving machine learning models via APIs.</li>
 Content Aggregation APIs:
-YouTube Data API: To fetch videos, playlists, and user subscriptions.
-Twitter API: To fetch tweets, hashtags, and trends.
-Instagram Graph API: To fetch user posts, stories, and media.
-RSS Feeds: For platforms without formal APIs.
+  <ul>
+<li>YouTube Data API: To fetch videos, playlists, and user subscriptions.</li>
+<li>Twitter API: To fetch tweets, hashtags, and trends.</li>
+<li>Instagram Graph API: To fetch user posts, stories, and media.</li>
+<li>RSS Feeds: For platforms without formal APIs.</li>
+  </ul>
 Deployment:
-AWS / GCP: Cloud services for hosting the backend, database, and ML models.
-Netlify / Vercel: For deploying the frontend.
-Process Workflow
-User Registration & Login
+  <ul>
+<li>AWS / GCP: Cloud services for hosting the backend, database, and ML models.</li>
+<li>Netlify / Vercel: For deploying the frontend.</li>
+    
+<h2>Process Workflow</h2>
+<ol>
+<li>User Registration & Login</li>
 Users sign up and authenticate via OAuth to link their social media accounts.
 
-Data Aggregation
+<li>Data Aggregation</li>
 APIs fetch content data in real-time, storing it in the database. Regular synchronization ensures up-to-date content.
 
-Preference Capture
+<li>Preference Capture</li>
 Users input initial preferences (e.g., topics, accounts) via the settings panel.
 The system analyzes past activities to infer implicit preferences.
 
-Recommendation Engine
+<li>Recommendation Engine</li>
 The system uses collaborative filtering and NLP to provide personalized content.
 Filters apply user-defined distractions and preferences.
 
-Dashboard Display
+<li>Dashboard Display</li>
 Content is organized in sections (e.g., Videos, Tweets, Posts), and users can interact with it (e.g., like, bookmark).
 
-Analytics
+<li>Analytics</li>
 The analytics section visualizes time spent on different platforms, helping users optimize their content consumption habits.
+</ol>
 
 Installation
 Clone the repository:
