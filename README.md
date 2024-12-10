@@ -75,6 +75,7 @@ Machine Learning:
 <li>Python: Primary language for implementing ML algorithms and data processing.</li>
   <ul><li>Libraries: Scikit-learn, TensorFlow (for models), NLTK, spaCy (for text analysis).</li></ul>
 <li>Flask / FastAPI: For serving machine learning models via APIs.</li>
+</ul>
 Content Aggregation APIs:
   <ul>
 <li>YouTube Data API: To fetch videos, playlists, and user subscriptions.</li>
@@ -86,7 +87,7 @@ Deployment:
   <ul>
 <li>AWS / GCP: Cloud services for hosting the backend, database, and ML models.</li>
 <li>Netlify / Vercel: For deploying the frontend.</li>
-    
+  </ul>
 <h2>Process Workflow</h2>
 <ol>
 <li>User Registration & Login</li>
