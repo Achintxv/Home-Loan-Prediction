@@ -52,8 +52,7 @@ The Content Personalization Dashboard helps users manage <em>information overloa
 
 <h3>Back-End:</h3>
 <ul>
-  <li><strong>Node.js</strong>: JavaScript runtime for handling server-side operations.</li>
-  <li><strong>Express.js</strong>: A web framework for building RESTful APIs.</li>
+  <li><strong>Springboot</strong></li>
 </ul>
 
 <h3>Database:</h3>
