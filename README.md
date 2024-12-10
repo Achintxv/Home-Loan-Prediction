@@ -6,17 +6,20 @@ Content Personalization Dashboard
 Purpose:<br>
 The Content Personalization Dashboard helps users manage information overload by aggregating content from multiple platforms into a single interface. It uses machine learning to filter and recommend content tailored to individual preferences, ultimately saving time and improving focus.<br>
 <br>
-Table of Contents<br>
-Overview<br>
-Key Features<br>
-Tech Stack<br>
-Process Workflow<br>
-Installation<br>
-Usage<br>
-Contributing<br>
-License<br>
-Overview<br><br>
-This project aims to build a dashboard that aggregates content from social media platforms like YouTube, Instagram, and Twitter, using machine learning to personalize recommendations and reduce distractions. Users can view personalized content recommendations, analyze their consumption patterns, and adjust preferences for improved content focus and relevance.<br><br>
+<h2>Table of Contents</h2>
+<ol>
+  <li>Overview</li>
+  <li>Key Features</li>
+  <li>Tech Stack</li>
+  <li>Process Workflow</li>
+  <li>Installation</li>
+  <li>Usage</li>
+  <li>Contributing</li>
+  <li>License</li>
+</ol>
+
+<h2>Overview</h2>
+This project aims to build a dashboard that aggregates content from social media platforms like YouTube, Instagram, and Twitter, using machine learning to personalize recommendations and reduce distractions. Users can view personalized content recommendations, analyze their consumption patterns, and adjust preferences for improved content focus and relevance.<br>
 
 Key Features
 <ol>
@@ -25,23 +28,31 @@ Key Features
     <li>Fetches content data from APIs of YouTube, Twitter, Instagram, and other platforms.</li>
     <li>Displays aggregated content feeds in a unified dashboard.</li>
   </ul>
-</ol>
-ML-Powered Recommendations
-Analyzes user behavior (e.g., likes, views, bookmarks) to generate personalized content recommendations.
-Uses collaborative filtering or content-based filtering models for intelligent suggestions.
-Implements NLP techniques for prioritizing content based on topics and keywords of interest.
-Dynamic Preference Adjustment
 
-Users can adjust their preferences directly in the dashboard.
-The system continuously learns from user feedback (e.g., thumbs up/down, skips) to refine recommendations.
-Distraction Filtering
+<li>ML-Powered Recommendations</li>
+  <ul>
+    <li>Analyzes user behavior (e.g., likes, views, bookmarks) to generate personalized content recommendations.</li>
+    <li>Uses collaborative filtering or content-based filtering models for intelligent suggestions.</li>
+    <li>Implements NLP techniques for prioritizing content based on topics and keywords of interest.</li>
+  </ul>
 
-Customizable filters to block topics, mute users, or prioritize specific accounts.
-Focus modes to hide unrelated content and increase productivity.
-Analytics Dashboard
+<li>Dynamic Preference Adjustment</li>
+<ul>
+  <li>Users can adjust their preferences directly in the dashboard.</li>
+  <li>The system continuously learns from user feedback (e.g., thumbs up/down, skips) to refine recommendations.</li>
+</ul>
 
-Displays detailed consumption trends (e.g., time spent per platform, favorite topics).
-Helps users optimize their content consumption and focus on high-value material.
+<li>Distraction Filtering</li>
+<ul>
+  <li>Customizable filters to block topics, mute users, or prioritize specific accounts.</li>
+  <li>Focus modes to hide unrelated content and increase productivity.</li>
+</ul>
+
+<li>Analytics Dashboard</li>
+<ul>
+  <li>Displays detailed consumption trends (e.g., time spent per platform, favorite topics).</li>
+<li>Helps users optimize their content consumption and focus on high-value material.</li>
+</ul>
 </ol>
 
 Tech Stack
