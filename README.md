@@ -67,9 +67,6 @@ ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,Loa
 4500,1200,130,360,1,1
 
 
-## Screenshots
-![Loan Prediction UI](https://your-image-link.com/screenshot.png)
-
 ## Contributing
 1. *Fork* the repository.
 2. *Create a new branch:* git checkout -b feature-name
