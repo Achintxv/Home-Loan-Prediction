@@ -133,11 +133,11 @@ Thanks to these wonderful people for their contributions! 🎉
 
 | Name            | GitHub Profile                    | Contribution                |
 |-----------------|----------------------------------|-----------------------------|
-| **Laxmirlola Behera**    | (https://github.com/Laxmirlola)   | Frontend Development |
-| **Gayathri Devdas**  | (https://github.com/Gayathrid04) | Frontend Development |
-| **Nikhil Kumar**  | (https://github.com/nikhil0019) | Backend Development |
+| **Achint Verma**  | (https://github.com/Gayathrid04) | Backend Development UI/UX Backend API |
 | **Khushi Dhruw**  | (https://github.com/kdhruw05) | Machine Learning Model |
-| **Gayathri Devdas**  | (https://github.com/Gayathrid04) | Backend Development UI/UX Backend API |
+| **Nikhil Kumar**  | (https://github.com/nikhil0019) | Backend Development |
+| **Gayathri Devdas**  | (https://github.com/Gayathrid04) | Frontend Development |
+| **Laxmirlola Behera**    | (https://github.com/Laxmirlola)   | Frontend Development |
 
 ---
 
