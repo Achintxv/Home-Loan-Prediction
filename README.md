@@ -124,7 +124,7 @@ python app.py
 
 | Name            | GitHub Profile                    | Contribution                |
 |-----------------|----------------------------------|-----------------------------|
-| **Achint Verma**  | (https://github.com/Achintxv) | Backend Development | UI/UX |
+| **Achint Verma**  | (https://github.com/Achintxv) | Backend Development & UI/UX |
 | **Khushi Dhruw**  | (https://github.com/kdhruw05) | Machine Learning Model |
 | **Nikhil Kumar**  | (https://github.com/nikhil0019) | Backend Development |
 | **Gayathri Devdas**  | (https://github.com/Gayathrid04) | Frontend Development |
