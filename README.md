@@ -120,13 +120,6 @@ python app.py
 
 ---
 
-Feel free to connect and contribute!
-
----
-Sure! Here's a **Contributor** section you can add to your `README.md` file. I'll include two example contributors. You can later replace or add more as needed.
-
----
-
 ## 👥 Contributors
 
 Thanks to these wonderful people for their contributions! 🎉
@@ -140,6 +133,8 @@ Thanks to these wonderful people for their contributions! 🎉
 | **Laxmirlola Behera**    | (https://github.com/Laxmirlola)   | Frontend Development |
 
 ---
+
+Feel free to connect and contribute!
 
 ## 🌟 Support
 
