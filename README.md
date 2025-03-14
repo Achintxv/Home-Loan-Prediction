@@ -122,8 +122,6 @@ python app.py
 
 ## 👥 Contributors
 
-Thanks to these wonderful people for their contributions! 🎉
-
 | Name            | GitHub Profile                    | Contribution                |
 |-----------------|----------------------------------|-----------------------------|
 | **Achint Verma**  | (https://github.com/Achintxv) | Backend Development UI/UX Backend API |
