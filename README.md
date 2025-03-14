@@ -126,7 +126,7 @@ Thanks to these wonderful people for their contributions! 🎉
 
 | Name            | GitHub Profile                    | Contribution                |
 |-----------------|----------------------------------|-----------------------------|
-| **Achint Verma**  | (https://github.com/Gayathrid04) | Backend Development UI/UX Backend API |
+| **Achint Verma**  | (https://github.com/Achintxv) | Backend Development UI/UX Backend API |
 | **Khushi Dhruw**  | (https://github.com/kdhruw05) | Machine Learning Model |
 | **Nikhil Kumar**  | (https://github.com/nikhil0019) | Backend Development |
 | **Gayathri Devdas**  | (https://github.com/Gayathrid04) | Frontend Development |
