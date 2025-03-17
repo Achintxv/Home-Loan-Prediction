@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home Loan Eligibility Calculator</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Home Loan Eligibility Calculator</h1>
+    <p class="description">
+      <a href="#">Home Loan eligibility</a> depends on factors like income, age, credit score, monthly obligations, etc. Get peace of mind by calculating your eligibility!
+    </p>
+
+    <div class="calculator-box">
+      <div class="calculator">
+        <h2>Calculate Home Loan Eligibility</h2>
+
+        <div class="input-group">
+          <label>Gross Income (Monthly)</label>
+          <input type="range" min="10000" max="10000000" step="1000" value="25000" id="incomeRange">
+          <input type="text" id="incomeValue" value="₹ 25,000" readonly>
+        </div>
+
+        <div class="input-group">
+          <label>Tenure (Years)</label>
+          <input type="range" min="1" max="30" value="30" id="tenureRange">
+          <input type="text" id="tenureValue" value="30" readonly>
+        </div>
+
+        <div class="input-group">
+          <label>Interest Rate (% P.A.)</label>
+          <input type="range" min="0.5" max="15" step="0.1" value="8.7" id="interestRange">
+          <input type="text" id="interestValue" value="8.7" readonly>
+        </div>
+
+        <div class="input-group">
+          <label>Other EMIs (Monthly)</label>
+          <input type="range" min="0" max="10000000" step="1000" value="0" id="otherEmiRange">
+          <input type="text" id="otherEmiValue" value="₹ 0" readonly>
+        </div>
+
+        <div class="extra">
+          <input type="number" id="creditScore" placeholder="Credit Score (300-900)" />
+          <input type="number" id="age" placeholder="Age" />
+          <select id="employmentType">
+            <option value="Salaried">Salaried</option>
+            <option value="Self-employed">Self-employed</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="results">
+        <p>Your Home Loan Eligibility</p>
+        <h3>₹ <span id="loanEligibility">0</span></h3>
+        <p>Your Home Loan EMI will be</p>
+        <h4>₹ <span id="loanEmi">0</span> <span class="per-month">/monthly</span></h4>
+
+        <button class="apply-btn">Apply Now</button>
+      </div>
+    </div>
+  </div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
