@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+  
+.container {
+  width: 80%;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+  
+h1 {
+  text-align: center;
+  color: #1d1d1d;
+}
+
+.description {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #666;
+}
+
+.description a {
+  color: #005BAC;
+  text-decoration: none;
+  font-weight: bold;
+}
+  
+.calculator-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.calculator {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 40px;
+}
+
+.results {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f1f7fc;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 25px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.input-group input[type="range"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.input-group input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+.extra{
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  display: flex;
+  gap: 5px;
+}
+
+.results p {
+  color: #666;
+  margin: 10px 0;
+}
+
+.results h3 {
+  color: #1c4b82;
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.results h4 {
+  color: #1c4b82;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.results .per-month {
+  font-size: 14px;
+  color: #777;
+}
+  
+.apply-btn {
+  background-color: #003d80;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.apply-btn:hover {
+  background-color: #002e60;
+}  
