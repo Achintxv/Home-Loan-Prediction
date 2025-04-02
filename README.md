@@ -126,7 +126,7 @@ python app.py
 |-----------------|----------------------------------|-----------------------------|
 | **Achint Verma**  | (https://github.com/Achintxv) | Backend Development |
 | **Khushi Dhruw**  | (https://github.com/kdhruw05) | Machine Learning Model |
-| **Nikhil Kumar**  | (https://github.com/nikhil0019) | Backend Development |
+| **Nikhil Kumar**  | (https://github.com/nikhil0019) | Machine Learning Model |
 | **Gayathri Devdas**  | (https://github.com/Gayathrid04) | Frontend Development |
 | **Laxmirlola Behera**    | (https://github.com/Laxmirlola)   | Frontend Development |
 
