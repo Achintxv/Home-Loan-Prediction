@@ -118,7 +118,7 @@ python app.py
 
 | Name            | GitHub Profile                    | Contribution                |
 |-----------------|----------------------------------|-----------------------------|
-| **Achint Verma**  | (https://github.com/Achintxv) | UI/UX Testing & Debugging |
+| **Achint Verma**  | (https://github.com/Achintxv) | UI/UX, Data Collection & Testing |
 | **Khushi Dhruw**  | (https://github.com/kdhruw05) | Machine Learning Model |
 | **Nikhil Kumar**  | (https://github.com/nikhil0019) | Machine Learning Model |
 | **Gayathri Devdas**  | (https://github.com/Gayathrid04) | Frontend Development |
