@@ -20,7 +20,7 @@ An **AI-powered web application** to predict home loan eligibility and calculate
 
 ## 📊 Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript  
+- **Frontend**: HTML, CSS
 - **Backend**: Python Flask  
 - **ML Model**: Scikit-learn (Linear Regression)  
 - **Model Serving**: joblib  
@@ -31,7 +31,7 @@ An **AI-powered web application** to predict home loan eligibility and calculate
 
 ## 🔧 How It Works
 
-1. **Frontend (HTML/CSS/JS)** collects inputs like:
+1. **Frontend (HTML/CSS)** collects inputs like:
    - Gross Income (Monthly)
    - Tenure (Years)
    - Interest Rate (% P.A.)
@@ -44,14 +44,9 @@ An **AI-powered web application** to predict home loan eligibility and calculate
 
 3. **Flask** loads the trained Linear Regression model (`home_loan_model.pkl`).
 
-4. Prediction of **eligible loan amount** is done on the backend.
+4. Prediction of **Loan Approval** is done on the backend.
 
-5. EMI is calculated using the standard **EMI formula**:
-   ```
-   EMI = [P × r × (1 + r)^n] / [(1 + r)^n – 1]
-   ```
-
-6. Results (Loan Eligibility and EMI) are returned to the frontend and displayed in real-time.
+5. Results (Loan Eligibility) are returned to the frontend and displayed in real-time.
 
 ---
 
@@ -60,7 +55,6 @@ An **AI-powered web application** to predict home loan eligibility and calculate
 ```
 ├── static/
 │   ├── style.css
-│   └── script.js
 ├── templates/
 │   └── index.html
 ├── loan_data.csv
@@ -124,7 +118,7 @@ python app.py
 
 | Name            | GitHub Profile                    | Contribution                |
 |-----------------|----------------------------------|-----------------------------|
-| **Achint Verma**  | (https://github.com/Achintxv) | Backend Development |
+| **Achint Verma**  | (https://github.com/Achintxv) | UI/UX Testing & Debugging |
 | **Khushi Dhruw**  | (https://github.com/kdhruw05) | Machine Learning Model |
 | **Nikhil Kumar**  | (https://github.com/nikhil0019) | Machine Learning Model |
 | **Gayathri Devdas**  | (https://github.com/Gayathrid04) | Frontend Development |
